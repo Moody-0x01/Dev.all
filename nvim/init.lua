@@ -21,7 +21,11 @@ require("lazy").setup({
 -- load theme
 dofile(vim.g.base46_cache .. "defaults")
 dofile(vim.g.base46_cache .. "statusline")
-
+require("smear_cursor").setup({
+	stiffness = 0.8,
+	trailing_stiffness = 0.5,
+	distance_stop_animation = 0.5
+})
 require "nvchad.autocmds"
 
 vim.opt.syntax = "on"
