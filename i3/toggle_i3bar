@@ -1,0 +1,8 @@
+#!/bin/bash
+if pgrep -x i3status > /dev/null; then
+    killall i3status
+	killall i3bar
+else
+	i3status &
+	i3bar &
+fi
