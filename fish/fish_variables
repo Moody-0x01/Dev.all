@@ -1,0 +1,4 @@
+# This file contains fish universal variable definitions.
+# VERSION: 3.0
+SETUVAR __fish_initialized:4300
+SETUVAR fish_user_paths:/home/moody/\x2econfig/herd\x2dlite/bin\x1e/home/moody/\x2elocal/bin\x1e/home/moody/\x2evenv/bin\x1e/home/moody/\x2ebin
