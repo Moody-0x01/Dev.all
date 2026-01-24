@@ -3,7 +3,6 @@ set -eu
 
 mkdir -p ~/.config/
 mkdir -p ~/.config_backedup
-
 sudo pacman -Syu
 sudo pacman -S --needed --noconfirm fish
 chmod +x ./xinit.d/*.fish
